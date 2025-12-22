@@ -1,0 +1,18 @@
+\ProvidesPackage{editioludovicana}
+
+\usepackage{fontspec}
+\setmainfont[Ligatures=Rare, Numbers=Proportional, Numbers=OldStyle, Scale=1.1]{Plantin MT Pro}
+\title{\textbf{\huge{Officium S. Ludovici Regis Franciæ}}}
+\date{XI Maii MMXXV}
+\newfontfamily\myfont{liturgy}
+
+\usepackage{lettrine}
+\usepackage{multicol}
+\setlength{\columnseprule}{0.5pt}
+\def\columnseprulecolor{\color{black}}
+\usepackage[autocompile]{gregoriotex}
+\grechangestafflinethickness{35}
+\grechangedim{spacebeneathtext}{0.5cm}{scalable}
+\grechangestaffsize{18}
+\usepackage{fancyhdr}
+\usepackage[headheight=2cm, textwidth=13cm, paperwidth=6in, paperheight=9in, top=0.75in, bottom=0.5in, total=5.5in]{geometry}
