@@ -7,3 +7,4 @@
 *.gaux
 *.synctex*
 .DS_Store
+tmp-gre/
